@@ -1,7 +1,7 @@
 # Online-Course-Application
 
-# Install:
-* Make sure you're installed these:
+# Installation:
+* Make sure you have the following installed:
     -  Link to install `Nodejs`:
         https://nodejs.org/en/download
 
@@ -10,17 +10,16 @@
 
     - Link to install `Visual Studio Code`:
         hhttps://code.visualstudio.com/download
-* 
+
 ## How to start my project?
 * Back-end (Server side):
-    - Open `PyCharm` and open the folder named `ManagementCourse`
-    - Make sure you're in `venv` in `PyCharm`
-    - Open Terminal and run : `pip install -r requirements.txt`
-    - Run: `python manage.py runserver your 'IP address':8000`
+    - Open **PyCharm** and open the folder named `ManagementCourse`.
+    - Activate the virtual environment (`venv`) in **PyCharm**.
+    - Open the **Terminal** and install the required Python packages: `pip install -r requirements.txt`.
+    - Start the **Django** server: `python manage.py runserver your_IP_address:8000`.
 
 * Front-end (Client side): 
-    - Open VSCode and open the folder named `Mobile`
-    - Open Terminal and run:
-    `npm i`
-    - Run `npm start` to start the project
-    - Scan the QC with your phone to open the project!
+    - Open **Visual Studio Code** and navigate to the `Mobile` folder.
+    - Open the **Terminal** and install the necessary Node.js packages: `npm install`.
+    - Start the development server: `npm start`.
+    - Use a QR code scanner on your phone to open the project in a mobile browser.
